@@ -318,6 +318,7 @@ begin
   end;
   FObjects.Free;
   FStack.Free;
+  FMarkedObjects.Free;
   inherited;
 end;
 
